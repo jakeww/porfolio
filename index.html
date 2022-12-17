@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Portfolio</title>
+  <style>
+    body {
+      background-color: #f2f2f2;
+    }
+
+    li {
+        margin: 0 10px;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 30px;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #333;
+      color: white;
+      padding: 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    main {
+      margin: 0 auto;
+      max-width: 800px;
+      padding: 20px;
+    }
+
+    h2 {
+      font-size: 28px;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+      font-size: 18px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+    }
+
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    footer {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Portfolio</h1>
+  </header>
+  <nav>
+    <ul style="display: flex; justify-content: space-between;">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>  
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p>Welcome to my portfolio! I am a software developer with over two years of experience in the field. 
+        I have a strong foundation in computer science principles and have developed a range of skills through my work on various projects. 
+        I am passionate about coding and am always looking for ways to improve my skills and stay current with the latest technologies. In my free time, I enjoy exploring new technologies and working on personal projects. 
+        I am highly motivated and always seek out opportunities to learn and grow as a developer. 
+        I am excited to continue my career in this field and make meaningful contributions to the industry.</p>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <h3>Quill</h3>
+      <p>Quill is an app that uses Project Gutenberg to allow people to have easier access to books</p>
+      <h3>Project 2</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl at efficitur suscipit, odio lacus ultricies lacus, at tincidunt nisi urna at leo. Proin at lacus non lacus porta tincidunt a at dui. In sit amet tristique quam. Aenean sed vehicula lorem, et faucibus justo.</p>
+      <h3>Project 3</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec auctor, nisl at efficitur suscipit, odio lacus ultricies lacus, at tincidunt nisi urna at leo. Proin at lacus non lacus porta tincidunt a at dui. In sit amet tristique quam. Aenean sed vehicula lorem, et faucibus justo.</p>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Thank you for visiting my portfolio! If you have any questions or would like to work with me, please don't hesitate to contact me. You can reach me at jakewatembach@gmail.com or through the form below:</p>
+      <form>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name">
+            <br>
+            <label for="email">Email:</label><br>
+            <input type="text" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" cols="40"></textarea><br>
+            <input type="submit" value="Submit">
+          </form>
+        </section>
+      </main>
+      <footer>
+        <p>Copyright Jake Watembach 2022</p>
+      </footer>
+    </body>
+    </html>
+    
